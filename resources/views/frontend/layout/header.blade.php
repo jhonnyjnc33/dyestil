@@ -3,13 +3,13 @@
 	<!-- tt-mobile menu -->
 	<nav class="panel-menu mobile-main-menu">
 		<ul>
-			<li><a href="index.html">HOME</a></li>
-			<li><a href="listing-left-column.html">SHOP</a></li>
-			<li><a href="blog-listing-without-col.html">BLOG</a></li>
+			<li><a href="{{ route('home') }}">HOME</a></li>
+			<li><a href="{{ route('about') }}">QUIENES SOMOS</a></li>
+			<li><a href="{{ route('contact') }}">CONTACTO</a></li>
 		</ul>
 		<div class="mm-navbtn-names">
-			<div class="mm-closebtn">Close</div>
-			<div class="mm-backbtn">Back</div>
+			<div class="mm-closebtn">Cerrar</div>
+			<div class="mm-backbtn">Regresar</div>
 		</div>
 	</nav>
 	<!-- tt-mobile-header -->
@@ -39,7 +39,7 @@
 			<div class="row">
 				<div class="tt-logo-container">
 					<!-- mobile logo -->
-					<a class="tt-logo tt-logo-alignment" href="index.html"><img src="{{asset('vendor/images/custom/logo.jpeg')}}" alt=""></a>
+					<a class="tt-logo tt-logo-alignment" href="index.html"><img src="{{asset('vendor/images/custom/logo.png')}}" alt=""></a>
 					<!-- /mobile logo -->
 				</div>
 			</div>
@@ -51,7 +51,7 @@
 			<div class="tt-header-holder">
 				<div class="tt-obj-logo obj-aligment-center">
 					<!-- logo -->
-					<a class="tt-logo tt-logo-alignment" href="index.html"><img src="{{asset('vendor/images/custom/logo.jpeg')}}" alt=""></a>
+					<a class="tt-logo tt-logo-alignment" href="index.html"><img src="{{asset('vendor/images/custom/logo.png')}}" alt=""></a>
 					<!-- /logo -->
 				</div>
 				{{-- @include("components.baroptions") --}}
@@ -65,9 +65,9 @@
 						<div class="tt-desctop-menu tt-menu-small">
 							<nav>
 								<ul>
-									<li class="dropdown tt-megamenu-col-02 selected"><a href="#">HOME</a></li>
-									<li class="dropdown megamenu"><a href="listing-collection.html">SHOP</a></li>
-									<li class="dropdown tt-megamenu-col-01"><a href="blog-listing-without-col.html">BLOG</a></li>
+									<li class="dropdown tt-megamenu-col-02 selected"><a href="{{ route('home') }}">HOME</a></li>
+									<li class="dropdown megamenu"><a href="{{ route('about') }}">QUIENES SOMOS</a></li>
+									<li class="dropdown tt-megamenu-col-01"><a href="{{ route('contact') }}">CONTACTO</a></li>
 								</ul>
 							</nav>
 						</div>

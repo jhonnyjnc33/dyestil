@@ -12,5 +12,7 @@
 */
 
 Route::group(['prefix' => '/','namespace' => 'Fronted'],function(){
-	Route::get('/','HomeController@index');
+	Route::get('/',['as' => 'home','uses' => 'HomeController@index']);
+	Route::get('/about',['as' => 'about','uses' => 'HomeController@about']);
+	Route::get('/contacto',['as' => 'contact','uses' => 'HomeController@contact']);
 });
