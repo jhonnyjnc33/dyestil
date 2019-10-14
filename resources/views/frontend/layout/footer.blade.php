@@ -2,24 +2,21 @@
 	<div class="tt-footer-col tt-color-scheme-01">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-lg-2 col-xl-3">
+				<div class="col-md-6 col-lg-2 col-xl-4">
 					<div class="tt-mobile-collapse">
 						<h4 class="tt-collapse-title">
-							CATEGORIES
+							CATEGORÍAS
 						</h4>
 						<div class="tt-collapse-content">
 							<ul class="tt-list">
-								<li><a href="listing-collection.html">Women</a></li>
-								<li><a href="listing-collection.html">Men</a></li>
-								<li><a href="listing-collection.html">Accessories</a></li>
-								<li><a href="listing-collection.html">Shoes</a></li>
-								<li><a href="listing-collection.html">New Arrivals</a></li>
-								<li><a href="listing-collection.html">Clearence</a></li>
+								<li><a href="listing-collection.html">Amor</a></li>
+								<li><a href="listing-collection.html">Motivación</a></li>
+								<li><a href="listing-collection.html">Difícil de decir</a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-2 col-xl-3">
+				{{-- <div class="col-md-6 col-lg-2 col-xl-3">
 					<div class="tt-mobile-collapse">
 						<h4 class="tt-collapse-title">
 							MY ACCOUNT
@@ -34,36 +31,33 @@
 							</ul>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-6 col-lg-4 col-xl-3">
+				</div> --}}
+				<div class="col-md-6 col-lg-4 col-xl-4">
 					<div class="tt-mobile-collapse">
 						<h4 class="tt-collapse-title">
-							CONTACTS
+							CONTACTO
 						</h4>
 						<div class="tt-collapse-content">
 							<address>
-								<p><span>Address:</span> 2548 Broaddus Maple Court Avenue, Madisonville KY 4783, United States of America</p>
-								<p><span>Phone:</span> +777 2345 7885;  +777 2345 7886</p>
-								<p><span>Hours:</span> 7 Days a week from 10 am to 6 pm</p>
-								<p><span>E-mail:</span> <a href="mailto:info@mydomain.com">info@mydomain.com</a></p>
+								<p><span>Teléfono:</span> 9983470777</p>
+								<p><span>Horario:</span> Lunes a vierdes de 9:00 am a 2:00 pm</p>
+								<p><span>E-mail:</span> <a href="mailto:ecomerce@dyestil.com.mx">ecomerce@dyestil.com.mx</a></p>
 							</address>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-4 col-xl-3">
+				<div class="col-md-6 col-lg-4 col-xl-4">
 					<div class="tt-newsletter">
 						<div class="tt-mobile-collapse">
 							<h4 class="tt-collapse-title">
-								NEWSLETTER SIGNUP
+								¿TE GUSTARÍA SER SOCIO?
 							</h4>
 							<div class="tt-collapse-content">
-								<p>
-									Sign up for our e-mail and be the first who know our special offers! Furthermore, we will give a 15% discount on the next order after you sign up.
-								</p>
+								<p>Únete a la familia Dyestil y obtén increíbles descuentos y regalos.</p>
 								<form id="newsletterform" class="form-inline form-default" method="post" novalidate="novalidate" action="#">
 									<div class="form-group">
-										<input type="text" name="email" class="form-control" placeholder="Enter your e-mail">
-										<button type="submit" class="btn">JOIN US</button>
+										<input type="text" name="email" class="form-control" placeholder="Escribe tu correo">
+										<button type="submit" class="btn">Únete</button>
 									</div>
 								</form>
 							</div>
@@ -94,7 +88,7 @@
 					<div class="tt-col-item">
 						<!-- copyright -->
 						<div class="tt-box-copyright">
-							&copy; Wokiee 2018. All Rights Reserved
+							&copy; Dyestil 2019. Todos los derechos reservados.
 						</div>
 						<!-- /copyright -->
 					</div>

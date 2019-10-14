@@ -22,31 +22,19 @@
 					<div class="col-sm-12 col-md-6 ml-sm-auto mr-sm-auto">
 						<div class="tt-contact-info">
 							<i class="tt-icon icon-f-93"></i>
-							<h6 class="tt-title">Telefonos</h6>
+							<h6 class="tt-title">Teléfono</h6>
 							<address>
-								+777 2345 7885:<br>
-								+777 2345 7886
+								9983470777
 							</address>
 						</div>
 					</div>
-					{{-- <div class="col-sm-6 col-md-4">
-						<div class="tt-contact-info">
-							<i class="tt-icon icon-f-24"></i>
-							<h6 class="tt-title">VISIT OUR LOCATION</h6>
-							<address>
-								2548 Broaddus Maple Court Avenue,<br>
-								Madisonville KY 4783,<br>
-								United States of America
-							</address>
-						</div>
-					</div> --}}
 					<div class="col-sm-6 col-md-6">
 						<div class="tt-contact-info">
 							<i class="tt-icon icon-f-92"></i>
 							<h6 class="tt-title">Horarios</h6>
 							<address>
-								7 Días a la semana<br>
-								de 10 AM a 6 PM
+								Lunes a Viernes<br>
+								de 9:00 am a 2:00 pm
 							</address>
 						</div>
 					</div>
@@ -70,6 +58,9 @@
 						</div>
 					</div>
 					<div class="col-md-6">
+						<div class="form-group">
+							<input type="text" name="phone" class="form-control" id="inputPhone" placeholder="Teléfono">
+						</div>
 						<div class="form-group">
 							<textarea  name="message" class="form-control" rows="7" placeholder="Tu mensaje"  id="textareaMessage"></textarea>
 						</div>
